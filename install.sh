@@ -92,7 +92,7 @@ if [ ! x"" = x"$DYNO" ] && ! command -v python >/dev/null; then
 fi
 
 if [ -d "SLOPPY/friendly-telegram" ]; then
-	cd UMod || {
+	cd SLOPPY || {
 		endspin "Error: Install git package and re-run installer"
 		exit 6
 	}
